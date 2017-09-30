@@ -731,8 +731,8 @@
 			#gpio-cells = <0x2>;
 			interrupt-controller;
 			#interrupt-cells = <0x2>;
-			linux,phandle = <0x100>;
-			phandle = <0x100>;
+			linux,phandle = <0x101>;
+			phandle = <0x101>;
 		};
 
 		qcom,smp2pgpio-ssr-smp2p-4-out {
@@ -743,8 +743,8 @@
 			#gpio-cells = <0x2>;
 			interrupt-controller;
 			#interrupt-cells = <0x2>;
-			linux,phandle = <0x101>;
-			phandle = <0x101>;
+			linux,phandle = <0x102>;
+			phandle = <0x102>;
 		};
 
 		qcom,msm-cam@1800000 {
@@ -1544,9 +1544,9 @@
 			qcom,msm-bus,num-cases = <0x3>;
 			qcom,msm-bus,num-paths = <0x1>;
 			qcom,msm-bus,vectors-KBps = <0x16 0x200 0x0 0x0 0x16 0x200 0x0 0x61a800 0x16 0x200 0x0 0x61a800>;
-			qcom,mdss-ab-factor = <0x3 0x1>;
+			qcom,mdss-ab-factor = <0x1 0x1>;
 			qcom,mdss-ib-factor = <0x2 0x1>;
-			qcom,mdss-clk-factor = <0x69 0x64>;
+			qcom,mdss-clk-factor = <0x6e 0x64>;
 			qcom,max-bandwidth-low-kbps = <0x10c8e0>;
 			qcom,max-bandwidth-high-kbps = <0x10c8e0>;
 			qcom,mdss-vbif-qos-rt-setting = <0x2 0x2 0x2 0x2>;
@@ -1896,7 +1896,7 @@
 
 			qcom,mdss_tcl_tnhd4714_4p7inch_video {
 				qcom,mdss-dsi-panel-name = "ili9881c_tcl_4p7inch_hd_video_panel";
-				qcom,mdss-dsi-panel-code-version = "_20150703";
+				qcom,mdss-dsi-panel-code-version = "_20150911";
 				qcom,mdss-dsi-panel-supply = <0x2>;
 				qcom,mdss-dsi-panel-controller = <0x59>;
 				qcom,mdss-dsi-panel-type = "dsi_video_mode";
@@ -1922,7 +1922,7 @@
 				qcom,mdss-dsi-underflow-color = <0xff>;
 				qcom,mdss-dsi-border-color = <0x0>;
 				qcom,mdss-dsi-pixel-packing = <0x0>;
-				qcom,mdss-dsi-on-command = [39 01 00 00 00 00 04 ff 98 81 03 39 01 00 00 00 00 02 01 08 39 01 00 00 00 00 02 02 00 39 01 00 00 00 00 02 03 73 39 01 00 00 00 00 02 04 73 39 01 00 00 00 00 02 05 14 39 01 00 00 00 00 02 06 06 39 01 00 00 00 00 02 07 02 39 01 00 00 00 00 02 08 05 39 01 00 00 00 00 02 09 00 39 01 00 00 00 00 02 0a 0c 39 01 00 00 00 00 02 0b 00 39 01 00 00 00 00 02 0c 1c 39 01 00 00 00 00 02 0d 1c 39 01 00 00 00 00 02 0e 00 39 01 00 00 00 00 02 0f 0c 39 01 00 00 00 00 02 10 0c 39 01 00 00 00 00 02 11 01 39 01 00 00 00 00 02 12 01 39 01 00 00 00 00 02 13 1b 39 01 00 00 00 00 02 14 0b 39 01 00 00 00 00 02 15 00 39 01 00 00 00 00 02 16 00 39 01 00 00 00 00 02 17 00 39 01 00 00 00 00 02 18 00 39 01 00 00 00 00 02 19 00 39 01 00 00 00 00 02 1a 00 39 01 00 00 00 00 02 1b 00 39 01 00 00 00 00 02 1c 00 39 01 00 00 00 00 02 1d 00 39 01 00 00 00 00 02 1e c8 39 01 00 00 00 00 02 1f 80 39 01 00 00 00 00 02 20 02 39 01 00 00 00 00 02 21 00 39 01 00 00 00 00 02 22 02 39 01 00 00 00 00 02 23 00 39 01 00 00 00 00 02 24 00 39 01 00 00 00 00 02 25 00 39 01 00 00 00 00 02 26 00 39 01 00 00 00 00 02 27 00 39 01 00 00 00 00 02 28 fb 39 01 00 00 00 00 02 29 43 39 01 00 00 00 00 02 2a 00 39 01 00 00 00 00 02 2b 00 39 01 00 00 00 00 02 2c 07 39 01 00 00 00 00 02 2d 07 39 01 00 00 00 00 02 2e ff 39 01 00 00 00 00 02 2f ff 39 01 00 00 00 00 02 30 11 39 01 00 00 00 00 02 31 00 39 01 00 00 00 00 02 32 00 39 01 00 00 00 00 02 33 00 39 01 00 00 00 00 02 34 84 39 01 00 00 00 00 02 35 80 39 01 00 00 00 00 02 36 07 39 01 00 00 00 00 02 37 00 39 01 00 00 00 00 02 38 00 39 01 00 00 00 00 02 39 00 39 01 00 00 00 00 02 3a 00 39 01 00 00 00 00 02 3b 00 39 01 00 00 00 00 02 3c 00 39 01 00 00 00 00 02 3d 00 39 01 00 00 00 00 02 3e 00 39 01 00 00 00 00 02 3f 00 39 01 00 00 00 00 02 40 00 39 01 00 00 00 00 02 41 00 39 01 00 00 00 00 02 42 00 39 01 00 00 00 00 02 43 80 39 01 00 00 00 00 02 44 08 39 01 00 00 00 00 02 50 01 39 01 00 00 00 00 02 51 23 39 01 00 00 00 00 02 52 45 39 01 00 00 00 00 02 53 67 39 01 00 00 00 00 02 54 89 39 01 00 00 00 00 02 55 ab 39 01 00 00 00 00 02 56 01 39 01 00 00 00 00 02 57 23 39 01 00 00 00 00 02 58 45 39 01 00 00 00 00 02 59 67 39 01 00 00 00 00 02 5a 89 39 01 00 00 00 00 02 5b ab 39 01 00 00 00 00 02 5c cd 39 01 00 00 00 00 02 5d ef 39 01 00 00 00 00 02 5e 10 39 01 00 00 00 00 02 5f 02 39 01 00 00 00 00 02 60 02 39 01 00 00 00 00 02 61 02 39 01 00 00 00 00 02 62 02 39 01 00 00 00 00 02 63 02 39 01 00 00 00 00 02 64 02 39 01 00 00 00 00 02 65 02 39 01 00 00 00 00 02 66 08 39 01 00 00 00 00 02 67 09 39 01 00 00 00 00 02 68 02 39 01 00 00 00 00 02 69 10 39 01 00 00 00 00 02 6a 12 39 01 00 00 00 00 02 6b 11 39 01 00 00 00 00 02 6c 13 39 01 00 00 00 00 02 6d 0c 39 01 00 00 00 00 02 6e 0e 39 01 00 00 00 00 02 6f 0d 39 01 00 00 00 00 02 70 0f 39 01 00 00 00 00 02 71 06 39 01 00 00 00 00 02 72 07 39 01 00 00 00 00 02 73 02 39 01 00 00 00 00 02 74 02 39 01 00 00 00 00 02 75 02 39 01 00 00 00 00 02 76 02 39 01 00 00 00 00 02 77 02 39 01 00 00 00 00 02 78 02 39 01 00 00 00 00 02 79 02 39 01 00 00 00 00 02 7a 02 39 01 00 00 00 00 02 7b 02 39 01 00 00 00 00 02 7c 07 39 01 00 00 00 00 02 7d 06 39 01 00 00 00 00 02 7e 02 39 01 00 00 00 00 02 7f 11 39 01 00 00 00 00 02 80 13 39 01 00 00 00 00 02 81 10 39 01 00 00 00 00 02 82 12 39 01 00 00 00 00 02 83 0f 39 01 00 00 00 00 02 84 0d 39 01 00 00 00 00 02 85 0e 39 01 00 00 00 00 02 86 0c 39 01 00 00 00 00 02 87 09 39 01 00 00 00 00 02 88 08 39 01 00 00 00 00 02 89 02 39 01 00 00 00 00 02 8a 02 39 01 00 00 00 00 04 ff 98 81 04 39 01 00 00 00 00 02 6c 15 39 01 00 00 00 00 02 6e 2a 39 01 00 00 00 00 02 6f 35 39 01 00 00 00 00 02 3a a4 39 01 00 00 00 00 02 8d 1a 39 01 00 00 00 00 02 87 ba 39 01 00 00 00 00 02 26 76 39 01 00 00 00 00 02 b2 d1 39 01 00 00 00 00 02 3b 90 39 01 00 00 00 00 04 ff 98 81 01 39 01 00 00 00 00 02 22 0a 39 01 00 00 00 00 02 31 00 39 01 00 00 00 00 02 53 7c 39 01 00 00 00 00 02 55 8f 39 01 00 00 00 00 02 50 96 39 01 00 00 00 00 02 51 96 39 01 00 00 00 00 02 60 14 39 01 00 00 00 00 02 a0 1f 39 01 00 00 00 00 02 a1 30 39 01 00 00 00 00 02 a2 44 39 01 00 00 00 00 02 a3 14 39 01 00 00 00 00 02 a4 18 39 01 00 00 00 00 02 a5 2b 39 01 00 00 00 00 02 a6 1e 39 01 00 00 00 00 02 a7 1f 39 01 00 00 00 00 02 a8 b8 39 01 00 00 00 00 02 a9 1c 39 01 00 00 00 00 02 aa 29 39 01 00 00 00 00 02 ab 9d 39 01 00 00 00 00 02 ac 1c 39 01 00 00 00 00 02 ad 1a 39 01 00 00 00 00 02 ae 4f 39 01 00 00 00 00 02 af 24 39 01 00 00 00 00 02 b0 29 39 01 00 00 00 00 02 b1 5a 39 01 00 00 00 00 02 b2 68 39 01 00 00 00 00 02 b3 39 39 01 00 00 00 00 02 c0 00 39 01 00 00 00 00 02 c1 30 39 01 00 00 00 00 02 c2 44 39 01 00 00 00 00 02 c3 14 39 01 00 00 00 00 02 c4 18 39 01 00 00 00 00 02 c5 2b 39 01 00 00 00 00 02 c6 1f 39 01 00 00 00 00 02 c7 1f 39 01 00 00 00 00 02 c8 b8 39 01 00 00 00 00 02 c9 1c 39 01 00 00 00 00 02 ca 28 39 01 00 00 00 00 02 cb 9d 39 01 00 00 00 00 02 cc 1b 39 01 00 00 00 00 02 cd 1b 39 01 00 00 00 00 02 ce 4f 39 01 00 00 00 00 02 cf 24 39 01 00 00 00 00 02 d0 28 39 01 00 00 00 00 02 d1 5a 39 01 00 00 00 00 02 d2 68 39 01 00 00 00 00 02 d3 39 39 01 00 00 00 00 04 ff 98 81 02 39 01 00 00 00 00 03 06 20 01 39 01 00 00 00 00 04 ff 98 81 00 39 01 00 00 00 00 02 35 01 39 01 00 00 00 00 02 55 91 39 01 00 00 00 00 03 68 06 01 05 01 00 00 78 00 02 11 00 05 01 00 00 14 00 02 29 00];
+				qcom,mdss-dsi-on-command = [39 01 00 00 00 00 04 ff 98 81 03 39 01 00 00 00 00 02 01 08 39 01 00 00 00 00 02 02 00 39 01 00 00 00 00 02 03 73 39 01 00 00 00 00 02 04 73 39 01 00 00 00 00 02 05 14 39 01 00 00 00 00 02 06 06 39 01 00 00 00 00 02 07 02 39 01 00 00 00 00 02 08 05 39 01 00 00 00 00 02 09 00 39 01 00 00 00 00 02 0a 0c 39 01 00 00 00 00 02 0b 00 39 01 00 00 00 00 02 0c 1c 39 01 00 00 00 00 02 0d 1c 39 01 00 00 00 00 02 0e 00 39 01 00 00 00 00 02 0f 0c 39 01 00 00 00 00 02 10 0c 39 01 00 00 00 00 02 11 01 39 01 00 00 00 00 02 12 01 39 01 00 00 00 00 02 13 1b 39 01 00 00 00 00 02 14 0b 39 01 00 00 00 00 02 15 00 39 01 00 00 00 00 02 16 00 39 01 00 00 00 00 02 17 00 39 01 00 00 00 00 02 18 00 39 01 00 00 00 00 02 19 00 39 01 00 00 00 00 02 1a 00 39 01 00 00 00 00 02 1b 00 39 01 00 00 00 00 02 1c 00 39 01 00 00 00 00 02 1d 00 39 01 00 00 00 00 02 1e c8 39 01 00 00 00 00 02 1f 80 39 01 00 00 00 00 02 20 02 39 01 00 00 00 00 02 21 00 39 01 00 00 00 00 02 22 02 39 01 00 00 00 00 02 23 00 39 01 00 00 00 00 02 24 00 39 01 00 00 00 00 02 25 00 39 01 00 00 00 00 02 26 00 39 01 00 00 00 00 02 27 00 39 01 00 00 00 00 02 28 fb 39 01 00 00 00 00 02 29 43 39 01 00 00 00 00 02 2a 00 39 01 00 00 00 00 02 2b 00 39 01 00 00 00 00 02 2c 07 39 01 00 00 00 00 02 2d 07 39 01 00 00 00 00 02 2e ff 39 01 00 00 00 00 02 2f ff 39 01 00 00 00 00 02 30 11 39 01 00 00 00 00 02 31 00 39 01 00 00 00 00 02 32 00 39 01 00 00 00 00 02 33 00 39 01 00 00 00 00 02 34 84 39 01 00 00 00 00 02 35 80 39 01 00 00 00 00 02 36 07 39 01 00 00 00 00 02 37 00 39 01 00 00 00 00 02 38 00 39 01 00 00 00 00 02 39 00 39 01 00 00 00 00 02 3a 00 39 01 00 00 00 00 02 3b 00 39 01 00 00 00 00 02 3c 00 39 01 00 00 00 00 02 3d 00 39 01 00 00 00 00 02 3e 00 39 01 00 00 00 00 02 3f 00 39 01 00 00 00 00 02 40 00 39 01 00 00 00 00 02 41 00 39 01 00 00 00 00 02 42 00 39 01 00 00 00 00 02 43 80 39 01 00 00 00 00 02 44 08 39 01 00 00 00 00 02 50 01 39 01 00 00 00 00 02 51 23 39 01 00 00 00 00 02 52 45 39 01 00 00 00 00 02 53 67 39 01 00 00 00 00 02 54 89 39 01 00 00 00 00 02 55 ab 39 01 00 00 00 00 02 56 01 39 01 00 00 00 00 02 57 23 39 01 00 00 00 00 02 58 45 39 01 00 00 00 00 02 59 67 39 01 00 00 00 00 02 5a 89 39 01 00 00 00 00 02 5b ab 39 01 00 00 00 00 02 5c cd 39 01 00 00 00 00 02 5d ef 39 01 00 00 00 00 02 5e 10 39 01 00 00 00 00 02 5f 02 39 01 00 00 00 00 02 60 02 39 01 00 00 00 00 02 61 02 39 01 00 00 00 00 02 62 02 39 01 00 00 00 00 02 63 02 39 01 00 00 00 00 02 64 02 39 01 00 00 00 00 02 65 02 39 01 00 00 00 00 02 66 08 39 01 00 00 00 00 02 67 09 39 01 00 00 00 00 02 68 02 39 01 00 00 00 00 02 69 10 39 01 00 00 00 00 02 6a 12 39 01 00 00 00 00 02 6b 11 39 01 00 00 00 00 02 6c 13 39 01 00 00 00 00 02 6d 0c 39 01 00 00 00 00 02 6e 0e 39 01 00 00 00 00 02 6f 0d 39 01 00 00 00 00 02 70 0f 39 01 00 00 00 00 02 71 06 39 01 00 00 00 00 02 72 07 39 01 00 00 00 00 02 73 02 39 01 00 00 00 00 02 74 02 39 01 00 00 00 00 02 75 02 39 01 00 00 00 00 02 76 02 39 01 00 00 00 00 02 77 02 39 01 00 00 00 00 02 78 02 39 01 00 00 00 00 02 79 02 39 01 00 00 00 00 02 7a 02 39 01 00 00 00 00 02 7b 02 39 01 00 00 00 00 02 7c 07 39 01 00 00 00 00 02 7d 06 39 01 00 00 00 00 02 7e 02 39 01 00 00 00 00 02 7f 11 39 01 00 00 00 00 02 80 13 39 01 00 00 00 00 02 81 10 39 01 00 00 00 00 02 82 12 39 01 00 00 00 00 02 83 0f 39 01 00 00 00 00 02 84 0d 39 01 00 00 00 00 02 85 0e 39 01 00 00 00 00 02 86 0c 39 01 00 00 00 00 02 87 09 39 01 00 00 00 00 02 88 08 39 01 00 00 00 00 02 89 02 39 01 00 00 00 00 02 8a 02 39 01 00 00 00 00 04 ff 98 81 04 39 01 00 00 00 00 02 6c 15 39 01 00 00 00 00 02 6e 2a 39 01 00 00 00 00 02 6f 35 39 01 00 00 00 00 02 3a a4 39 01 00 00 00 00 02 8d 1a 39 01 00 00 00 00 02 87 ba 39 01 00 00 00 00 02 26 76 39 01 00 00 00 00 02 b2 d1 39 01 00 00 00 00 02 3b 90 39 01 00 00 00 00 02 8b e0 39 01 00 00 00 00 04 ff 98 81 01 39 01 00 00 00 00 02 22 0a 39 01 00 00 00 00 02 31 00 39 01 00 00 00 00 02 53 7c 39 01 00 00 00 00 02 55 8f 39 01 00 00 00 00 02 50 96 39 01 00 00 00 00 02 51 96 39 01 00 00 00 00 02 60 14 39 01 00 00 00 00 02 a0 1f 39 01 00 00 00 00 02 a1 30 39 01 00 00 00 00 02 a2 44 39 01 00 00 00 00 02 a3 14 39 01 00 00 00 00 02 a4 18 39 01 00 00 00 00 02 a5 2b 39 01 00 00 00 00 02 a6 1e 39 01 00 00 00 00 02 a7 1f 39 01 00 00 00 00 02 a8 b8 39 01 00 00 00 00 02 a9 1c 39 01 00 00 00 00 02 aa 29 39 01 00 00 00 00 02 ab 9d 39 01 00 00 00 00 02 ac 1c 39 01 00 00 00 00 02 ad 1a 39 01 00 00 00 00 02 ae 4f 39 01 00 00 00 00 02 af 24 39 01 00 00 00 00 02 b0 29 39 01 00 00 00 00 02 b1 5a 39 01 00 00 00 00 02 b2 68 39 01 00 00 00 00 02 b3 39 39 01 00 00 00 00 02 c0 00 39 01 00 00 00 00 02 c1 30 39 01 00 00 00 00 02 c2 44 39 01 00 00 00 00 02 c3 14 39 01 00 00 00 00 02 c4 18 39 01 00 00 00 00 02 c5 2b 39 01 00 00 00 00 02 c6 1f 39 01 00 00 00 00 02 c7 1f 39 01 00 00 00 00 02 c8 b8 39 01 00 00 00 00 02 c9 1c 39 01 00 00 00 00 02 ca 28 39 01 00 00 00 00 02 cb 9d 39 01 00 00 00 00 02 cc 1b 39 01 00 00 00 00 02 cd 1b 39 01 00 00 00 00 02 ce 4f 39 01 00 00 00 00 02 cf 24 39 01 00 00 00 00 02 d0 28 39 01 00 00 00 00 02 d1 5a 39 01 00 00 00 00 02 d2 68 39 01 00 00 00 00 02 d3 39 39 01 00 00 00 00 04 ff 98 81 02 39 01 00 00 00 00 03 06 20 01 39 01 00 00 00 00 04 ff 98 81 00 39 01 00 00 00 00 03 68 06 01 05 01 00 00 78 00 02 11 00 05 01 00 00 14 00 02 29 00];
 				qcom,mdss-dsi-off-command = [05 01 00 00 14 00 02 28 00 05 01 00 00 78 00 02 10 00];
 				qcom,mdss-dsi-on-command-state = "dsi_lp_mode";
 				qcom,mdss-dsi-off-command-state = "dsi_lp_mode";
@@ -1936,9 +1936,9 @@
 				qcom,mdss-dsi-lane-1-state;
 				qcom,mdss-dsi-lane-2-state;
 				qcom,mdss-dsi-lane-3-state;
-				qcom,mdss-dsi-panel-timings = <0x921a1200 0x3e42161e 0x14030400>;
+				qcom,mdss-dsi-panel-timings = <0x871c1200 0x42441825 0x17030400>;
 				qcom,mdss-dsi-t-clk-post = <0x4>;
-				qcom,mdss-dsi-t-clk-pre = <0x19>;
+				qcom,mdss-dsi-t-clk-pre = <0x1b>;
 				qcom,mdss-dsi-bl-min-level = <0x0>;
 				qcom,mdss-dsi-bl-max-level = <0xff>;
 				qcom,mdss-dsi-dma-trigger = <0x4>;
@@ -2092,8 +2092,8 @@
 				label = "venus_ns";
 				qcom,iommu-contexts = <0x64>;
 				qcom,virtual-addr-pool = <0x5dc00000 0x7f000000 0xdcc00000 0x1000000>;
-				linux,phandle = <0xfc>;
-				phandle = <0xfc>;
+				linux,phandle = <0xfd>;
+				phandle = <0xfd>;
 			};
 
 			qcom,iommu-domain2 {
@@ -2101,8 +2101,8 @@
 				qcom,iommu-contexts = <0x65>;
 				qcom,virtual-addr-pool = <0x4b000000 0x12c00000>;
 				qcom,secure-domain;
-				linux,phandle = <0xfd>;
-				phandle = <0xfd>;
+				linux,phandle = <0xfe>;
+				phandle = <0xfe>;
 			};
 
 			qcom,iommu-domain3 {
@@ -2110,8 +2110,8 @@
 				qcom,iommu-contexts = <0x66>;
 				qcom,virtual-addr-pool = <0x25800000 0x25800000>;
 				qcom,secure-domain;
-				linux,phandle = <0xfe>;
-				phandle = <0xfe>;
+				linux,phandle = <0xff>;
+				phandle = <0xff>;
 			};
 
 			qcom,iommu-domain4 {
@@ -2119,8 +2119,8 @@
 				qcom,iommu-contexts = <0x67>;
 				qcom,virtual-addr-pool = <0x1000000 0x24800000>;
 				qcom,secure-domain;
-				linux,phandle = <0xff>;
-				phandle = <0xff>;
+				linux,phandle = <0x100>;
+				phandle = <0x100>;
 			};
 		};
 
@@ -3066,7 +3066,7 @@
 				qcom,thresh = <0x30d400>;
 				qcom,mode = <0x0>;
 				qcom,dest-node = <0xac>;
-				qcom,dest-bw = <0x124f80>;
+				qcom,dest-bw = <0xdbba0>;
 			};
 
 			rule2 {
@@ -3095,7 +3095,7 @@
 				qcom,thresh = <0x30d400>;
 				qcom,mode = <0x0>;
 				qcom,dest-node = <0xad>;
-				qcom,dest-bw = <0x124f80>;
+				qcom,dest-bw = <0xdbba0>;
 			};
 
 			rule5 {
@@ -3907,8 +3907,8 @@
 					regulator-min-microvolt = <0x1>;
 					regulator-max-microvolt = <0x7>;
 					qcom,use-voltage-corner;
-					linux,phandle = <0x104>;
-					phandle = <0x104>;
+					linux,phandle = <0x105>;
+					phandle = <0x105>;
 				};
 
 				regulator-l3-corner-so {
@@ -4278,14 +4278,14 @@
 		qcom,msm-pcm {
 			compatible = "qcom,msm-pcm-dsp";
 			qcom,msm-pcm-dsp-id = <0x0>;
-			linux,phandle = <0x110>;
-			phandle = <0x110>;
+			linux,phandle = <0x111>;
+			phandle = <0x111>;
 		};
 
 		qcom,msm-pcm-routing {
 			compatible = "qcom,msm-pcm-routing";
-			linux,phandle = <0x119>;
-			phandle = <0x119>;
+			linux,phandle = <0x11a>;
+			phandle = <0x11a>;
 		};
 
 		qcom,msm-pcm-low-latency {
@@ -4293,40 +4293,40 @@
 			qcom,msm-pcm-dsp-id = <0x1>;
 			qcom,msm-pcm-low-latency;
 			qcom,latency-level = "ultra";
-			linux,phandle = <0x111>;
-			phandle = <0x111>;
+			linux,phandle = <0x112>;
+			phandle = <0x112>;
 		};
 
 		qcom,msm-pcm-lpa {
 			compatible = "qcom,msm-pcm-lpa";
-			linux,phandle = <0x11a>;
-			phandle = <0x11a>;
+			linux,phandle = <0x11b>;
+			phandle = <0x11b>;
 		};
 
 		qcom,msm-compress-dsp {
 			compatible = "qcom,msm-compress-dsp";
-			linux,phandle = <0x115>;
-			phandle = <0x115>;
+			linux,phandle = <0x116>;
+			phandle = <0x116>;
 		};
 
 		qcom,msm-voip-dsp {
 			compatible = "qcom,msm-voip-dsp";
-			linux,phandle = <0x112>;
-			phandle = <0x112>;
+			linux,phandle = <0x113>;
+			phandle = <0x113>;
 		};
 
 		qcom,msm-pcm-voice {
 			compatible = "qcom,msm-pcm-voice";
 			qcom,destroy-cvd;
 			qcom,vote-bms;
-			linux,phandle = <0x113>;
-			phandle = <0x113>;
+			linux,phandle = <0x114>;
+			phandle = <0x114>;
 		};
 
 		qcom,msm-stub-codec {
 			compatible = "qcom,msm-stub-codec";
-			linux,phandle = <0x135>;
-			phandle = <0x135>;
+			linux,phandle = <0x136>;
+			phandle = <0x136>;
 		};
 
 		qcom,msm-dai-fe {
@@ -4335,8 +4335,8 @@
 
 		qcom,msm-pcm-afe {
 			compatible = "qcom,msm-pcm-afe";
-			linux,phandle = <0x117>;
-			phandle = <0x117>;
+			linux,phandle = <0x118>;
+			phandle = <0x118>;
 		};
 
 		qcom,msm-voice-svc {
@@ -4345,8 +4345,8 @@
 
 		qcom,msm-pcm-loopback {
 			compatible = "qcom,msm-pcm-loopback";
-			linux,phandle = <0x114>;
-			phandle = <0x114>;
+			linux,phandle = <0x115>;
+			phandle = <0x115>;
 		};
 
 		qcom,msm-dai-mi2s {
@@ -4357,8 +4357,8 @@
 				qcom,msm-dai-q6-mi2s-dev-id = <0x0>;
 				qcom,msm-mi2s-rx-lines = <0x3>;
 				qcom,msm-mi2s-tx-lines = <0x0>;
-				linux,phandle = <0x11d>;
-				phandle = <0x11d>;
+				linux,phandle = <0x11e>;
+				phandle = <0x11e>;
 			};
 
 			qcom,msm-dai-q6-mi2s-sec {
@@ -4366,8 +4366,8 @@
 				qcom,msm-dai-q6-mi2s-dev-id = <0x1>;
 				qcom,msm-mi2s-rx-lines = <0x1>;
 				qcom,msm-mi2s-tx-lines = <0x0>;
-				linux,phandle = <0x11e>;
-				phandle = <0x11e>;
+				linux,phandle = <0x11f>;
+				phandle = <0x11f>;
 			};
 
 			qcom,msm-dai-q6-mi2s-quat {
@@ -4375,8 +4375,8 @@
 				qcom,msm-dai-q6-mi2s-dev-id = <0x3>;
 				qcom,msm-mi2s-rx-lines = <0x1>;
 				qcom,msm-mi2s-tx-lines = <0x2>;
-				linux,phandle = <0x120>;
-				phandle = <0x120>;
+				linux,phandle = <0x121>;
+				phandle = <0x121>;
 			};
 
 			qcom,msm-dai-q6-mi2s-tert {
@@ -4384,22 +4384,22 @@
 				qcom,msm-dai-q6-mi2s-dev-id = <0x2>;
 				qcom,msm-mi2s-rx-lines = <0x0>;
 				qcom,msm-mi2s-tx-lines = <0x3>;
-				linux,phandle = <0x11f>;
-				phandle = <0x11f>;
+				linux,phandle = <0x120>;
+				phandle = <0x120>;
 			};
 		};
 
 		qcom,msm-dai-q6-hdmi {
 			compatible = "qcom,msm-dai-q6-hdmi";
 			qcom,msm-dai-q6-dev-id = <0x8>;
-			linux,phandle = <0x11c>;
-			phandle = <0x11c>;
+			linux,phandle = <0x11d>;
+			phandle = <0x11d>;
 		};
 
 		qcom,msm-lsm-client {
 			compatible = "qcom,msm-lsm-client";
-			linux,phandle = <0x118>;
-			phandle = <0x118>;
+			linux,phandle = <0x119>;
+			phandle = <0x119>;
 		};
 
 		qcom,msm-dai-q6 {
@@ -4408,148 +4408,148 @@
 			qcom,msm-dai-q6-sb-0-rx {
 				compatible = "qcom,msm-dai-q6-dev";
 				qcom,msm-dai-q6-dev-id = <0x4000>;
-				linux,phandle = <0x121>;
-				phandle = <0x121>;
+				linux,phandle = <0x122>;
+				phandle = <0x122>;
 			};
 
 			qcom,msm-dai-q6-sb-0-tx {
 				compatible = "qcom,msm-dai-q6-dev";
 				qcom,msm-dai-q6-dev-id = <0x4001>;
-				linux,phandle = <0x122>;
-				phandle = <0x122>;
+				linux,phandle = <0x123>;
+				phandle = <0x123>;
 			};
 
 			qcom,msm-dai-q6-sb-1-rx {
 				compatible = "qcom,msm-dai-q6-dev";
 				qcom,msm-dai-q6-dev-id = <0x4002>;
-				linux,phandle = <0x123>;
-				phandle = <0x123>;
+				linux,phandle = <0x124>;
+				phandle = <0x124>;
 			};
 
 			qcom,msm-dai-q6-sb-1-tx {
 				compatible = "qcom,msm-dai-q6-dev";
 				qcom,msm-dai-q6-dev-id = <0x4003>;
-				linux,phandle = <0x124>;
-				phandle = <0x124>;
+				linux,phandle = <0x125>;
+				phandle = <0x125>;
 			};
 
 			qcom,msm-dai-q6-sb-3-rx {
 				compatible = "qcom,msm-dai-q6-dev";
 				qcom,msm-dai-q6-dev-id = <0x4006>;
-				linux,phandle = <0x125>;
-				phandle = <0x125>;
+				linux,phandle = <0x126>;
+				phandle = <0x126>;
 			};
 
 			qcom,msm-dai-q6-sb-3-tx {
 				compatible = "qcom,msm-dai-q6-dev";
 				qcom,msm-dai-q6-dev-id = <0x4007>;
-				linux,phandle = <0x126>;
-				phandle = <0x126>;
+				linux,phandle = <0x127>;
+				phandle = <0x127>;
 			};
 
 			qcom,msm-dai-q6-sb-4-rx {
 				compatible = "qcom,msm-dai-q6-dev";
 				qcom,msm-dai-q6-dev-id = <0x4008>;
-				linux,phandle = <0x127>;
-				phandle = <0x127>;
+				linux,phandle = <0x128>;
+				phandle = <0x128>;
 			};
 
 			qcom,msm-dai-q6-sb-4-tx {
 				compatible = "qcom,msm-dai-q6-dev";
 				qcom,msm-dai-q6-dev-id = <0x4009>;
-				linux,phandle = <0x128>;
-				phandle = <0x128>;
+				linux,phandle = <0x129>;
+				phandle = <0x129>;
 			};
 
 			qcom,msm-dai-q6-bt-sco-rx {
 				compatible = "qcom,msm-dai-q6-dev";
 				qcom,msm-dai-q6-dev-id = <0x3000>;
-				linux,phandle = <0x129>;
-				phandle = <0x129>;
+				linux,phandle = <0x12a>;
+				phandle = <0x12a>;
 			};
 
 			qcom,msm-dai-q6-bt-sco-tx {
 				compatible = "qcom,msm-dai-q6-dev";
 				qcom,msm-dai-q6-dev-id = <0x3001>;
-				linux,phandle = <0x12a>;
-				phandle = <0x12a>;
+				linux,phandle = <0x12b>;
+				phandle = <0x12b>;
 			};
 
 			qcom,msm-dai-q6-int-fm-rx {
 				compatible = "qcom,msm-dai-q6-dev";
 				qcom,msm-dai-q6-dev-id = <0x3004>;
-				linux,phandle = <0x12b>;
-				phandle = <0x12b>;
+				linux,phandle = <0x12c>;
+				phandle = <0x12c>;
 			};
 
 			qcom,msm-dai-q6-int-fm-tx {
 				compatible = "qcom,msm-dai-q6-dev";
 				qcom,msm-dai-q6-dev-id = <0x3005>;
-				linux,phandle = <0x12c>;
-				phandle = <0x12c>;
+				linux,phandle = <0x12d>;
+				phandle = <0x12d>;
 			};
 
 			qcom,msm-dai-q6-be-afe-pcm-rx {
 				compatible = "qcom,msm-dai-q6-dev";
 				qcom,msm-dai-q6-dev-id = <0xe0>;
-				linux,phandle = <0x12d>;
-				phandle = <0x12d>;
+				linux,phandle = <0x12e>;
+				phandle = <0x12e>;
 			};
 
 			qcom,msm-dai-q6-be-afe-pcm-tx {
 				compatible = "qcom,msm-dai-q6-dev";
 				qcom,msm-dai-q6-dev-id = <0xe1>;
-				linux,phandle = <0x12e>;
-				phandle = <0x12e>;
+				linux,phandle = <0x12f>;
+				phandle = <0x12f>;
 			};
 
 			qcom,msm-dai-q6-afe-proxy-rx {
 				compatible = "qcom,msm-dai-q6-dev";
 				qcom,msm-dai-q6-dev-id = <0xf1>;
-				linux,phandle = <0x12f>;
-				phandle = <0x12f>;
+				linux,phandle = <0x130>;
+				phandle = <0x130>;
 			};
 
 			qcom,msm-dai-q6-afe-proxy-tx {
 				compatible = "qcom,msm-dai-q6-dev";
 				qcom,msm-dai-q6-dev-id = <0xf0>;
-				linux,phandle = <0x130>;
-				phandle = <0x130>;
+				linux,phandle = <0x131>;
+				phandle = <0x131>;
 			};
 
 			qcom,msm-dai-q6-incall-record-rx {
 				compatible = "qcom,msm-dai-q6-dev";
 				qcom,msm-dai-q6-dev-id = <0x8003>;
-				linux,phandle = <0x131>;
-				phandle = <0x131>;
+				linux,phandle = <0x132>;
+				phandle = <0x132>;
 			};
 
 			qcom,msm-dai-q6-incall-record-tx {
 				compatible = "qcom,msm-dai-q6-dev";
 				qcom,msm-dai-q6-dev-id = <0x8004>;
-				linux,phandle = <0x132>;
-				phandle = <0x132>;
+				linux,phandle = <0x133>;
+				phandle = <0x133>;
 			};
 
 			qcom,msm-dai-q6-incall-music-rx {
 				compatible = "qcom,msm-dai-q6-dev";
 				qcom,msm-dai-q6-dev-id = <0x8005>;
-				linux,phandle = <0x133>;
-				phandle = <0x133>;
+				linux,phandle = <0x134>;
+				phandle = <0x134>;
 			};
 
 			qcom,msm-dai-q6-incall-music-2-rx {
 				compatible = "qcom,msm-dai-q6-dev";
 				qcom,msm-dai-q6-dev-id = <0x8002>;
-				linux,phandle = <0x134>;
-				phandle = <0x134>;
+				linux,phandle = <0x135>;
+				phandle = <0x135>;
 			};
 		};
 
 		qcom,msm-pcm-hostless {
 			compatible = "qcom,msm-pcm-hostless";
-			linux,phandle = <0x116>;
-			phandle = <0x116>;
+			linux,phandle = <0x117>;
+			phandle = <0x117>;
 		};
 
 		qcom,msm-pri-auxpcm {
@@ -4563,8 +4563,8 @@
 			qcom,msm-cpudai-auxpcm-data = <0x0 0x0>;
 			qcom,msm-cpudai-auxpcm-pcm-clk-rate = <0x1f4000 0x1f4000>;
 			qcom,msm-auxpcm-interface = "primary";
-			linux,phandle = <0x11b>;
-			phandle = <0x11b>;
+			linux,phandle = <0x11c>;
+			phandle = <0x11c>;
 		};
 
 		qcom,msm-audio-ion {
@@ -4801,8 +4801,8 @@
 			pinctrl-1 = <0xd2>;
 			pinctrl-2 = <0xd3>;
 			gpios = <0x45 0x28 0x0 0x45 0x29 0x0 0x45 0x2a 0x0 0x45 0x2b 0x0 0x45 0x2c 0x0>;
-			clocks = <0xa 0x116b76f 0xa 0x24a30992 0xd4 0x8121ac15 0x3f 0x709f430b>;
-			clock-names = "xo", "rf_clk", "measure", "wcnss_debug";
+			clocks = <0xa 0x116b76f 0xa 0x24a30992 0xd4 0x8121ac15 0x3f 0x709f430b 0x3f 0x37d40ce2>;
+			clock-names = "xo", "rf_clk", "measure", "wcnss_debug", "snoc_qosgen";
 			qcom,has-autodetect-xo;
 			qcom,wlan-rx-buff-count = <0x200>;
 			qcom,is-pronto-vt;
@@ -4969,7 +4969,7 @@
 				goodix,irq-gpio = <0x45 0xd 0x0>;
 				goodix,button-map = <0x8b 0xac 0x9e>;
 				goodix,i2c-pull-up;
-				goodix,module-name = "unknow", "HuaXingDa", "BYD", "unknow", "unknow", "unknow";
+				goodix,module-name = "shengyue", "Dijing", "BYD", "unknow", "unknow", "unknow";
 				goodix,cfg-data0 = [41 d0 02 00 05 0a 35 00 01 08 28 05 50 32 03 05 00 00 00 00 00 00 00 17 19 1c 14 8b 2b 0c 30 32 31 0d 00 00 00 22 03 1d 00 00 00 00 00 00 00 32 00 00 00 1e 50 94 c5 02 07 00 00 04 ad 21 00 94 28 00 7d 31 00 6d 3b 00 60 48 00 60 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 04 06 08 12 0e 18 16 14 10 0c 0a ff ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 04 06 08 0a 0c 0f 10 12 13 26 24 22 21 20 1f 1e 1d 1c 18 16 ff ff ff ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 a2 01];
 				goodix,cfg-data1 = [43 d0 02 00 05 0a 05 00 01 08 19 0a 50 32 03 f5 00 00 ff 7f 00 00 00 00 00 00 00 8a 2b 0c 32 34 d3 07 00 00 00 01 33 1d 00 01 00 00 00 00 00 00 00 00 29 1e 46 94 c5 02 07 00 1e 04 bf 20 00 a3 26 00 8c 2d 00 77 36 00 66 40 00 66 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0a 0f 06 00 4b 32 02 04 06 08 0a 0c 0e 10 12 14 16 18 ff ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 12 10 0f 0c 0a 08 06 04 02 00 16 18 1c 1d 1e 1f 20 21 22 24 26 ff ff ff ff ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 58 01];
 				goodix,cfg-data2 = [43 d0 02 00 05 0a 35 01 01 0a 28 0a 50 32 03 05 00 00 ff 7f 00 00 06 18 1a 1e 14 8c 2d 0d 36 38 b5 06 00 0a 00 02 33 1d 00 00 00 00 00 00 00 32 00 00 23 2d 57 94 c5 02 07 00 00 04 8e 30 00 7f 36 00 71 3e 00 64 47 00 59 51 00 59 18 38 58 00 f0 4a 3a dd dd 27 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0f 00 00 46 2d 1a 18 16 14 12 10 0e 0c 0a 08 06 04 02 ff 00 00 00 00 00 00 00 00 00 ff ff ff ff 0f ff 00 14 13 12 10 0f 0c 0a 08 06 04 02 00 16 18 1c 1d 1e 1f 20 21 22 24 26 28 29 ff ff 00 00 ff ff ff ff ff ff ff ff ff ff ff ff ff 4a 01];
@@ -5788,8 +5788,8 @@
 					qcom,cdc-mclk-clk-rate = <0x927c00>;
 					qcom,cdc-static-supplies = "cdc-vdda-h", "cdc-vdd-px", "cdc-vdd-pa", "cdc-vdda-cp";
 					qcom,cdc-on-demand-supplies = "cdc-vdd-mic-bias";
-					linux,phandle = <0x136>;
-					phandle = <0x136>;
+					linux,phandle = <0x137>;
+					phandle = <0x137>;
 				};
 
 				msm8x16_wcd_codec@f100 {
@@ -5819,8 +5819,8 @@
 					reg = <0x1700 0x100>;
 					regulator-min-microvolt = <0x100590>;
 					regulator-max-microvolt = <0x149970>;
-					linux,phandle = <0x103>;
-					phandle = <0x103>;
+					linux,phandle = <0x104>;
+					phandle = <0x104>;
 				};
 			};
 		};
@@ -5940,6 +5940,11 @@
 			qcom,gpio-ramdump-disable = <0xf9 0xf 0x0>;
 			qcom,gpio-force-stop = <0xfa 0x0 0x0>;
 			linux,contiguous-region = <0xfb>;
+
+			qcom,mba-mem@0 {
+				compatible = "qcom,pil-mba-mem";
+				linux,contiguous-region = <0xfc>;
+			};
 		};
 
 		qcom,vidc@1d00000 {
@@ -5961,22 +5966,22 @@
 			qcom,vidc-iommu-domains {
 
 				qcom,domain-ns {
-					qcom,vidc-domain-phandle = <0xfc>;
+					qcom,vidc-domain-phandle = <0xfd>;
 					qcom,vidc-partition-buffer-types = <0x7ff 0x800>;
 				};
 
 				qcom,domain-sec-bs {
-					qcom,vidc-domain-phandle = <0xfd>;
+					qcom,vidc-domain-phandle = <0xfe>;
 					qcom,vidc-partition-buffer-types = <0x241>;
 				};
 
 				qcom,domain-sec-px {
-					qcom,vidc-domain-phandle = <0xfe>;
+					qcom,vidc-domain-phandle = <0xff>;
 					qcom,vidc-partition-buffer-types = <0x106>;
 				};
 
 				qcom,domain-sec-np {
-					qcom,vidc-domain-phandle = <0xff>;
+					qcom,vidc-domain-phandle = <0x100>;
 					qcom,vidc-partition-buffer-types = <0x480>;
 				};
 			};
@@ -6027,12 +6032,12 @@
 			qcom,sysmon-id = <0x6>;
 			qcom,ssctl-instance-id = <0x13>;
 			qcom,firmware-name = "wcnss";
-			qcom,gpio-err-fatal = <0x100 0x0 0x0>;
-			qcom,gpio-err-ready = <0x100 0x1 0x0>;
-			qcom,gpio-proxy-unvote = <0x100 0x2 0x0>;
-			qcom,gpio-stop-ack = <0x100 0x3 0x0>;
-			qcom,gpio-force-stop = <0x101 0x0 0x0>;
-			linux,contiguous-region = <0x102>;
+			qcom,gpio-err-fatal = <0x101 0x0 0x0>;
+			qcom,gpio-err-ready = <0x101 0x1 0x0>;
+			qcom,gpio-proxy-unvote = <0x101 0x2 0x0>;
+			qcom,gpio-stop-ack = <0x101 0x3 0x0>;
+			qcom,gpio-force-stop = <0x102 0x0 0x0>;
+			linux,contiguous-region = <0x103>;
 		};
 
 		cpu-pmu {
@@ -6075,8 +6080,8 @@
 			qcom,corner-acc-map = <0x0 0x100 0x101>;
 			qcom,override-acc-fuse-sel = <0x0 0x34 0x1 0x1 0x0>;
 			qcom,override-corner-acc-map = <0x0 0x100 0x100>;
-			linux,phandle = <0x105>;
-			phandle = <0x105>;
+			linux,phandle = <0x106>;
+			phandle = <0x106>;
 		};
 
 		regulator@b018000 {
@@ -6090,12 +6095,12 @@
 			regulator-max-microvolt = <0x9>;
 			qcom,cpr-voltage-ceiling = <0x118c30 0x118c30 0x149970>;
 			qcom,cpr-voltage-floor = <0x118c30 0x118c30 0x11bd04>;
-			vdd-apc-supply = <0x103>;
+			vdd-apc-supply = <0x104>;
 			qcom,vdd-mx-corner-map = <0x4 0x5 0x7>;
 			qcom,vdd-mx-vmin-method = <0x4>;
-			vdd-mx-supply = <0x104>;
+			vdd-mx-supply = <0x105>;
 			qcom,vdd-mx-vmax = <0x7>;
-			mem-acc-supply = <0x105>;
+			mem-acc-supply = <0x106>;
 			qcom,cpr-ref-clk = <0x4b00>;
 			qcom,cpr-timer-delay = <0x1388>;
 			qcom,cpr-timer-cons-up = <0x0>;
@@ -6368,8 +6373,8 @@
 			gp {
 				qcom,num-pins = <0x7a>;
 				#qcom,pin-cells = <0x1>;
-				linux,phandle = <0x106>;
-				phandle = <0x106>;
+				linux,phandle = <0x107>;
+				phandle = <0x107>;
 
 				msm_gpio {
 					compatible = "qcom,msm-tlmm-gp";
@@ -6384,7 +6389,7 @@
 			};
 
 			ext-cdc-tlmm-lines {
-				qcom,pins = <0x106 0x74 0x106 0x70 0x106 0x75 0x106 0x76 0x106 0x77>;
+				qcom,pins = <0x107 0x74 0x107 0x70 0x107 0x75 0x107 0x76 0x107 0x77>;
 				qcom,num-grp-pins = <0x5>;
 				qcom,pin-func = <0x1>;
 				label = "ext-cdc-tlmm-lines";
@@ -6401,7 +6406,7 @@
 			};
 
 			ext-codec-lines {
-				qcom,pins = <0x106 0x43>;
+				qcom,pins = <0x107 0x43>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x0>;
 				label = "ext-codec-lines";
@@ -6419,7 +6424,7 @@
 			};
 
 			cdc-pdm-lines {
-				qcom,pins = <0x106 0x3f 0x106 0x40 0x106 0x41 0x106 0x42 0x106 0x43 0x106 0x44>;
+				qcom,pins = <0x107 0x3f 0x107 0x40 0x107 0x41 0x107 0x42 0x107 0x43 0x107 0x44>;
 				qcom,num-grp-pins = <0x6>;
 				qcom,pin-func = <0x1>;
 				label = "cdc-pdm-lines";
@@ -6427,20 +6432,20 @@
 				pdm_lines_on {
 					drive-strength = <0x8>;
 					bias-pull-none;
-					linux,phandle = <0x10e>;
-					phandle = <0x10e>;
+					linux,phandle = <0x10f>;
+					phandle = <0x10f>;
 				};
 
 				pdm_lines_off {
 					drive-strength = <0x2>;
 					bias-pull-down;
-					linux,phandle = <0x10f>;
-					phandle = <0x10f>;
+					linux,phandle = <0x110>;
+					phandle = <0x110>;
 				};
 			};
 
 			cdc-ext-pa-lines {
-				qcom,pins = <0x106 0x71 0x106 0x72 0x106 0x73 0x106 0x74>;
+				qcom,pins = <0x107 0x71 0x107 0x72 0x107 0x73 0x107 0x74>;
 				qcom,num-grp-pins = <0x4>;
 				qcom,pin-func = <0x1>;
 				label = "cdc-ext-pa-lines";
@@ -6457,7 +6462,7 @@
 			};
 
 			cdc-ext-pa-ws-line {
-				qcom,pins = <0x106 0x6e>;
+				qcom,pins = <0x107 0x6e>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x2>;
 				label = "cdc-ext-pa-ws-line";
@@ -6474,7 +6479,7 @@
 			};
 
 			cdc-dmic-lines {
-				qcom,pins = <0x106 0x0 0x106 0x1>;
+				qcom,pins = <0x107 0x0 0x107 0x1>;
 				qcom,num-grp-pins = <0x2>;
 				qcom,pin-func = <0x4>;
 				label = "cdc-dmic-lines";
@@ -6490,7 +6495,7 @@
 			};
 
 			cross-conn-det {
-				qcom,pins = <0x106 0x78>;
+				qcom,pins = <0x107 0x78>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x0>;
 				label = "cross-conn-det-sw";
@@ -6508,7 +6513,7 @@
 			};
 
 			pmx-uartconsole {
-				qcom,pins = <0x106 0x4 0x106 0x5>;
+				qcom,pins = <0x107 0x4 0x107 0x5>;
 				qcom,num-grp-pins = <0x2>;
 				qcom,pin-func = <0x2>;
 				label = "uart-console";
@@ -6522,7 +6527,7 @@
 			};
 
 			blsp1_uart1_active {
-				qcom,pins = <0x106 0x0 0x106 0x1 0x106 0x2 0x106 0x3>;
+				qcom,pins = <0x107 0x0 0x107 0x1 0x107 0x2 0x107 0x3>;
 				qcom,num-grp-pins = <0x4>;
 				qcom,pin-func = <0x2>;
 				label = "blsp1_uart1_active";
@@ -6536,7 +6541,7 @@
 			};
 
 			blsp1_uart1_sleep {
-				qcom,pins = <0x106 0x0 0x106 0x1 0x106 0x2 0x106 0x3>;
+				qcom,pins = <0x107 0x0 0x107 0x1 0x107 0x2 0x107 0x3>;
 				qcom,num-grp-pins = <0x4>;
 				qcom,pin-func = <0x0>;
 				label = "blsp1_uart1_sleep";
@@ -6550,7 +6555,7 @@
 			};
 
 			sdhc2_cd_pin {
-				qcom,pins = <0x106 0x26>;
+				qcom,pins = <0x107 0x26>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x0>;
 				label = "cd-gpio";
@@ -6573,12 +6578,12 @@
 			sdc {
 				qcom,num-pins = <0x7>;
 				#qcom,pin-cells = <0x1>;
-				linux,phandle = <0x107>;
-				phandle = <0x107>;
+				linux,phandle = <0x108>;
+				phandle = <0x108>;
 			};
 
 			pmx_sdc1_clk {
-				qcom,pins = <0x107 0x0>;
+				qcom,pins = <0x108 0x0>;
 				qcom,num-grp-pins = <0x1>;
 				label = "sdc1-clk";
 
@@ -6598,7 +6603,7 @@
 			};
 
 			pmx_sdc1_cmd {
-				qcom,pins = <0x107 0x1>;
+				qcom,pins = <0x108 0x1>;
 				qcom,num-grp-pins = <0x1>;
 				label = "sdc1-cmd";
 
@@ -6618,7 +6623,7 @@
 			};
 
 			pmx_sdc1_data {
-				qcom,pins = <0x107 0x2>;
+				qcom,pins = <0x108 0x2>;
 				qcom,num-grp-pins = <0x1>;
 				label = "sdc1-data";
 
@@ -6638,7 +6643,7 @@
 			};
 
 			pmx_sdc2_clk {
-				qcom,pins = <0x107 0x4>;
+				qcom,pins = <0x108 0x4>;
 				qcom,num-grp-pins = <0x1>;
 				label = "sdc2-clk";
 
@@ -6658,7 +6663,7 @@
 			};
 
 			pmx_sdc2_cmd {
-				qcom,pins = <0x107 0x5>;
+				qcom,pins = <0x108 0x5>;
 				qcom,num-grp-pins = <0x1>;
 				label = "sdc2-cmd";
 
@@ -6678,7 +6683,7 @@
 			};
 
 			pmx_sdc2_data {
-				qcom,pins = <0x107 0x6>;
+				qcom,pins = <0x108 0x6>;
 				qcom,num-grp-pins = <0x1>;
 				label = "sdc2-data";
 
@@ -6698,7 +6703,7 @@
 			};
 
 			usb-id-pin {
-				qcom,pins = <0x106 0x6e>;
+				qcom,pins = <0x107 0x6e>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x0>;
 				label = "usb-id-pin";
@@ -6712,7 +6717,7 @@
 			};
 
 			otg_5v_pin {
-				qcom,pins = <0x106 0x34>;
+				qcom,pins = <0x107 0x34>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x0>;
 				label = "otg-gpio";
@@ -6735,7 +6740,7 @@
 			};
 
 			spi0_active {
-				qcom,pins = <0x106 0x8 0x106 0x9 0x106 0xb>;
+				qcom,pins = <0x107 0x8 0x107 0x9 0x107 0xb>;
 				qcom,num-grp-pins = <0x3>;
 				qcom,pin-func = <0x1>;
 				label = "spi0-active";
@@ -6749,7 +6754,7 @@
 			};
 
 			spi0_suspend {
-				qcom,pins = <0x106 0x8 0x106 0x9 0x106 0xb>;
+				qcom,pins = <0x107 0x8 0x107 0x9 0x107 0xb>;
 				qcom,num-grp-pins = <0x3>;
 				qcom,pin-func = <0x0>;
 				label = "spi0-suspend";
@@ -6763,7 +6768,7 @@
 			};
 
 			spi0_cs0_active {
-				qcom,pins = <0x106 0xa>;
+				qcom,pins = <0x107 0xa>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x1>;
 				label = "spi0-cs0-active";
@@ -6777,7 +6782,7 @@
 			};
 
 			spi0_cs0_suspend {
-				qcom,pins = <0x106 0xa>;
+				qcom,pins = <0x107 0xa>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x0>;
 				label = "spi0-cs0-suspend";
@@ -6791,7 +6796,7 @@
 			};
 
 			ice40-spi-usb-pins {
-				qcom,pins = <0x106 0x0 0x106 0x1 0x106 0x3 0x106 0x72>;
+				qcom,pins = <0x107 0x0 0x107 0x1 0x107 0x3 0x107 0x72>;
 				qcom,num-grp-pins = <0x4>;
 				qcom,pin-func = <0x0>;
 				label = "ice40-spi-usb-pins";
@@ -6812,7 +6817,7 @@
 			};
 
 			pmx_i2c_0 {
-				qcom,pins = <0x106 0x7 0x106 0x6>;
+				qcom,pins = <0x107 0x7 0x107 0x6>;
 				qcom,num-grp-pins = <0x2>;
 				qcom,pin-func = <0x3>;
 				label = "pmx_i2c_0";
@@ -6833,7 +6838,7 @@
 			};
 
 			pmx_i2c_5 {
-				qcom,pins = <0x106 0x13 0x106 0x12>;
+				qcom,pins = <0x107 0x13 0x107 0x12>;
 				qcom,num-grp-pins = <0x2>;
 				qcom,pin-func = <0x2>;
 				label = "pmx_i2c_5";
@@ -6856,12 +6861,12 @@
 			qdsd {
 				qcom,num-pins = <0x6>;
 				#qcom,pin-cells = <0x1>;
-				linux,phandle = <0x108>;
-				phandle = <0x108>;
+				linux,phandle = <0x109>;
+				phandle = <0x109>;
 			};
 
 			pmx_qdsd_clk {
-				qcom,pins = <0x108 0x0>;
+				qcom,pins = <0x109 0x0>;
 				qcom,num-grp-pins = <0x1>;
 				label = "qdsd-clk";
 
@@ -6895,7 +6900,7 @@
 			};
 
 			pmx_qdsd_cmd {
-				qcom,pins = <0x108 0x1>;
+				qcom,pins = <0x109 0x1>;
 				qcom,num-grp-pins = <0x1>;
 				label = "qdsd-cmd";
 
@@ -6943,7 +6948,7 @@
 			};
 
 			pmx_qdsd_data0 {
-				qcom,pins = <0x108 0x2>;
+				qcom,pins = <0x109 0x2>;
 				qcom,num-grp-pins = <0x1>;
 				label = "qdsd-data0";
 
@@ -6991,7 +6996,7 @@
 			};
 
 			pmx_qdsd_data1 {
-				qcom,pins = <0x108 0x3>;
+				qcom,pins = <0x109 0x3>;
 				qcom,num-grp-pins = <0x1>;
 				label = "qdsd-data1";
 
@@ -7032,7 +7037,7 @@
 			};
 
 			pmx_qdsd_data2 {
-				qcom,pins = <0x108 0x4>;
+				qcom,pins = <0x109 0x4>;
 				qcom,num-grp-pins = <0x1>;
 				label = "qdsd-data2";
 
@@ -7073,7 +7078,7 @@
 			};
 
 			pmx_qdsd_data3 {
-				qcom,pins = <0x108 0x5>;
+				qcom,pins = <0x109 0x5>;
 				qcom,num-grp-pins = <0x1>;
 				label = "qdsd-data3";
 
@@ -7124,7 +7129,7 @@
 				label = "mdss-pins";
 				qcom,pin-func = <0x0>;
 				qcom,num-grp-pins = <0x1>;
-				qcom,pins = <0x106 0x19>;
+				qcom,pins = <0x107 0x19>;
 
 				active {
 					drive-strength = <0x8>;
@@ -7144,7 +7149,7 @@
 			};
 
 			wcnss_pmux_5wire {
-				qcom,pins = <0x106 0x28 0x106 0x29 0x106 0x2a 0x106 0x2b 0x106 0x2c>;
+				qcom,pins = <0x107 0x28 0x107 0x29 0x107 0x2a 0x107 0x2b 0x107 0x2c>;
 				qcom,num-grp-pins = <0x5>;
 				qcom,pin-func = <0x1>;
 				label = "wcnss_5wire_pins";
@@ -7165,7 +7170,7 @@
 			};
 
 			wcnss_pmux_gpio {
-				qcom,pins = <0x106 0x28 0x106 0x29 0x106 0x2a 0x106 0x2b 0x106 0x2c>;
+				qcom,pins = <0x107 0x28 0x107 0x29 0x107 0x2a 0x107 0x2b 0x107 0x2c>;
 				qcom,num-grp-pins = <0x5>;
 				qcom,pin-func = <0x0>;
 				label = "wcnss_5gpio_pins";
@@ -7179,7 +7184,7 @@
 			};
 
 			pmx_i2c_6 {
-				qcom,pins = <0x106 0x16 0x106 0x17>;
+				qcom,pins = <0x107 0x16 0x107 0x17>;
 				qcom,num-grp-pins = <0x2>;
 				qcom,pin-func = <0x2>;
 				label = "pmx_i2c_6";
@@ -7200,7 +7205,7 @@
 			};
 
 			pmx_rd_nfc_int {
-				qcom,pins = <0x106 0x15>;
+				qcom,pins = <0x107 0x15>;
 				qcom,pin-func = <0x0>;
 				qcom,num-grp-pins = <0x1>;
 				label = "pmx_nfc_int";
@@ -7221,7 +7226,7 @@
 			};
 
 			pmx_nfc_reset {
-				qcom,pins = <0x106 0x14>;
+				qcom,pins = <0x107 0x14>;
 				qcom,pin-func = <0x0>;
 				qcom,num-grp-pins = <0x1>;
 				label = "pmx_nfc_disable";
@@ -7259,7 +7264,7 @@
 			};
 
 			tpiu_seta_1 {
-				qcom,pins = <0x106 0x8>;
+				qcom,pins = <0x107 0x8>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x3>;
 				label = "tpiu-seta-1";
@@ -7271,7 +7276,7 @@
 			};
 
 			tpiu_seta_2 {
-				qcom,pins = <0x106 0x9>;
+				qcom,pins = <0x107 0x9>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x2>;
 				label = "tpiu-seta-2";
@@ -7283,7 +7288,7 @@
 			};
 
 			tpiu_seta_3 {
-				qcom,pins = <0x106 0xa>;
+				qcom,pins = <0x107 0xa>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x3>;
 				label = "tpiu-seta-3";
@@ -7295,7 +7300,7 @@
 			};
 
 			tpiu_seta_4 {
-				qcom,pins = <0x106 0x27>;
+				qcom,pins = <0x107 0x27>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x2>;
 				label = "tpiu-seta-4";
@@ -7307,7 +7312,7 @@
 			};
 
 			tpiu_seta_5 {
-				qcom,pins = <0x106 0x28>;
+				qcom,pins = <0x107 0x28>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x2>;
 				label = "tpiu-seta-5";
@@ -7319,7 +7324,7 @@
 			};
 
 			tpiu_seta_6 {
-				qcom,pins = <0x106 0x29>;
+				qcom,pins = <0x107 0x29>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x2>;
 				label = "tpiu-seta-6";
@@ -7331,7 +7336,7 @@
 			};
 
 			tpiu_seta_7 {
-				qcom,pins = <0x106 0x2a>;
+				qcom,pins = <0x107 0x2a>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x2>;
 				label = "tpiu-seta-7";
@@ -7343,7 +7348,7 @@
 			};
 
 			tpiu_seta_8 {
-				qcom,pins = <0x106 0x2b>;
+				qcom,pins = <0x107 0x2b>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x3>;
 				label = "tpiu-seta-8";
@@ -7355,7 +7360,7 @@
 			};
 
 			tpiu_seta_9 {
-				qcom,pins = <0x106 0x2d>;
+				qcom,pins = <0x107 0x2d>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x3>;
 				label = "tpiu-seta-9";
@@ -7367,7 +7372,7 @@
 			};
 
 			tpiu_seta_10 {
-				qcom,pins = <0x106 0x2e>;
+				qcom,pins = <0x107 0x2e>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x2>;
 				label = "tpiu-seta-10";
@@ -7379,7 +7384,7 @@
 			};
 
 			tpiu_seta_11 {
-				qcom,pins = <0x106 0x2f>;
+				qcom,pins = <0x107 0x2f>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x3>;
 				label = "tpiu-seta-11";
@@ -7391,7 +7396,7 @@
 			};
 
 			tpiu_seta_12 {
-				qcom,pins = <0x106 0x30>;
+				qcom,pins = <0x107 0x30>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x2>;
 				label = "tpiu-seta-12";
@@ -7403,7 +7408,7 @@
 			};
 
 			tpiu_seta_13 {
-				qcom,pins = <0x106 0x3e>;
+				qcom,pins = <0x107 0x3e>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x2>;
 				label = "tpiu-seta-13";
@@ -7415,7 +7420,7 @@
 			};
 
 			tpiu_seta_14 {
-				qcom,pins = <0x106 0x45>;
+				qcom,pins = <0x107 0x45>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x2>;
 				label = "tpiu-seta-14";
@@ -7427,7 +7432,7 @@
 			};
 
 			tpiu_seta_15 {
-				qcom,pins = <0x106 0x70>;
+				qcom,pins = <0x107 0x70>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x5>;
 				label = "tpiu-seta-15";
@@ -7439,7 +7444,7 @@
 			};
 
 			tpiu_seta_16 {
-				qcom,pins = <0x106 0x71>;
+				qcom,pins = <0x107 0x71>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x9>;
 				label = "tpiu-seta-16";
@@ -7451,7 +7456,7 @@
 			};
 
 			tpiu_seta_17 {
-				qcom,pins = <0x106 0x72>;
+				qcom,pins = <0x107 0x72>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x8>;
 				label = "tpiu-seta-17";
@@ -7463,7 +7468,7 @@
 			};
 
 			tpiu_seta_18 {
-				qcom,pins = <0x106 0x73>;
+				qcom,pins = <0x107 0x73>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x8>;
 				label = "tpiu-seta-18";
@@ -7475,7 +7480,7 @@
 			};
 
 			tpiu_setb_1 {
-				qcom,pins = <0x106 0x4>;
+				qcom,pins = <0x107 0x4>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x5>;
 				label = "tpiu-setb-1";
@@ -7487,7 +7492,7 @@
 			};
 
 			tpiu_setb_2 {
-				qcom,pins = <0x106 0x5>;
+				qcom,pins = <0x107 0x5>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x5>;
 				label = "tpiu-setb-2";
@@ -7499,7 +7504,7 @@
 			};
 
 			tpiu_setb_6 {
-				qcom,pins = <0x106 0x1d>;
+				qcom,pins = <0x107 0x1d>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x7>;
 				label = "tpiu-setb-6";
@@ -7511,7 +7516,7 @@
 			};
 
 			tpiu_setb_7 {
-				qcom,pins = <0x106 0x1e>;
+				qcom,pins = <0x107 0x1e>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x9>;
 				label = "tpiu-setb-7";
@@ -7523,7 +7528,7 @@
 			};
 
 			tpiu_setb_13 {
-				qcom,pins = <0x106 0x24>;
+				qcom,pins = <0x107 0x24>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x8>;
 				label = "tpiu-setb-13";
@@ -7535,7 +7540,7 @@
 			};
 
 			tpiu_setb_14 {
-				qcom,pins = <0x106 0x25>;
+				qcom,pins = <0x107 0x25>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x7>;
 				label = "tpiu-setb-14";
@@ -7547,7 +7552,7 @@
 			};
 
 			tpiu_setb_15 {
-				qcom,pins = <0x106 0x6e>;
+				qcom,pins = <0x107 0x6e>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x4>;
 				label = "tpiu-setb-15";
@@ -7559,7 +7564,7 @@
 			};
 
 			tpiu_setb_16 {
-				qcom,pins = <0x106 0x6f>;
+				qcom,pins = <0x107 0x6f>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x1>;
 				label = "tpiu-setb-16";
@@ -7571,7 +7576,7 @@
 			};
 
 			tpiu_setb_17 {
-				qcom,pins = <0x106 0x78>;
+				qcom,pins = <0x107 0x78>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0xa>;
 				label = "tpiu-setb-17";
@@ -7583,7 +7588,7 @@
 			};
 
 			tpiu_setb_18 {
-				qcom,pins = <0x106 0x79>;
+				qcom,pins = <0x107 0x79>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0xb>;
 				label = "tpiu-setb-18";
@@ -7595,7 +7600,7 @@
 			};
 
 			tlmm_gpio_key {
-				qcom,pins = <0x106 0x6b 0x106 0x6c 0x106 0x6d>;
+				qcom,pins = <0x107 0x6b 0x107 0x6c 0x107 0x6d>;
 				qcom,pin-func = <0x0>;
 				qcom,num-grp-pins = <0x3>;
 				label = "tlmm_gpio_key";
@@ -7603,20 +7608,20 @@
 				gpio_key_active {
 					drive-strength = <0x2>;
 					bias-pull-up;
-					linux,phandle = <0x109>;
-					phandle = <0x109>;
+					linux,phandle = <0x10a>;
+					phandle = <0x10a>;
 				};
 
 				gpio_key_suspend {
 					drive-strength = <0x2>;
 					bias-pull-up;
-					linux,phandle = <0x10a>;
-					phandle = <0x10a>;
+					linux,phandle = <0x10b>;
+					phandle = <0x10b>;
 				};
 			};
 
 			gpio_led_pins {
-				qcom,pins = <0x106 0x8 0x106 0x9 0x106 0xa>;
+				qcom,pins = <0x107 0x8 0x107 0x9 0x107 0xa>;
 				qcom,num-grp-pins = <0x3>;
 				label = "gpio-led-pins";
 
@@ -7628,7 +7633,7 @@
 			};
 
 			pmx_ts_int_active {
-				qcom,pins = <0x106 0xd>;
+				qcom,pins = <0x107 0xd>;
 				qcom,pin-func = <0x0>;
 				qcom,num-grp-pins = <0x1>;
 				label = "pmx_ts_int_active";
@@ -7642,7 +7647,7 @@
 			};
 
 			pmx_ts_int_suspend {
-				qcom,pins = <0x106 0xd>;
+				qcom,pins = <0x107 0xd>;
 				qcom,pin-func = <0x0>;
 				qcom,num-grp-pins = <0x1>;
 				label = "pmx_ts_int_suspend";
@@ -7656,7 +7661,7 @@
 			};
 
 			pmx_ts_reset_active {
-				qcom,pins = <0x106 0xc>;
+				qcom,pins = <0x107 0xc>;
 				qcom,pin-func = <0x0>;
 				qcom,num-grp-pins = <0x1>;
 				label = "pmx_ts_reset_active";
@@ -7670,7 +7675,7 @@
 			};
 
 			pmx_ts_reset_suspend {
-				qcom,pins = <0x106 0xc>;
+				qcom,pins = <0x107 0xc>;
 				qcom,pin-func = <0x0>;
 				qcom,num-grp-pins = <0x1>;
 				label = "pmx_ts_reset_suspend";
@@ -7684,7 +7689,7 @@
 			};
 
 			pmx_ts_release {
-				qcom,pins = <0x106 0xd 0x106 0xc>;
+				qcom,pins = <0x107 0xd 0x107 0xc>;
 				qcom,num-grp-pins = <0x2>;
 				label = "pmx_ts_release";
 
@@ -7695,7 +7700,7 @@
 			};
 
 			cci0_pinmux {
-				qcom,pins = <0x106 0x1d 0x106 0x1e>;
+				qcom,pins = <0x107 0x1d 0x107 0x1e>;
 				qcom,num-grp-pins = <0x2>;
 				qcom,pin-func = <0x1>;
 				label = "cci0";
@@ -7716,7 +7721,7 @@
 			};
 
 			cam_sensor_mclk0 {
-				qcom,pins = <0x106 0x1a>;
+				qcom,pins = <0x107 0x1a>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x1>;
 				label = "cam-sensor-mclk0";
@@ -7730,7 +7735,7 @@
 			};
 
 			cam_sensor_mclk0_sleep {
-				qcom,pins = <0x106 0x1a>;
+				qcom,pins = <0x107 0x1a>;
 				qcom,num-grp-pins = <0x1>;
 				label = "cam-sensor-mclk0-sleep";
 
@@ -7743,7 +7748,7 @@
 			};
 
 			cam_sensor_mclk1 {
-				qcom,pins = <0x106 0x1b>;
+				qcom,pins = <0x107 0x1b>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x1>;
 				label = "cam-sensor-mclk1";
@@ -7757,7 +7762,7 @@
 			};
 
 			cam_sensor_mclk1_sleep {
-				qcom,pins = <0x106 0x1b>;
+				qcom,pins = <0x107 0x1b>;
 				qcom,num-grp-pins = <0x1>;
 				label = "cam-sensor-mclk1-sleep";
 
@@ -7770,7 +7775,7 @@
 			};
 
 			cam_sensor_rear {
-				qcom,pins = <0x106 0x23 0x106 0x22 0x106 0x33>;
+				qcom,pins = <0x107 0x23 0x107 0x22 0x107 0x33>;
 				qcom,num-grp-pins = <0x3>;
 				qcom,pin-func = <0x0>;
 				label = "cam-sensor-rear";
@@ -7791,7 +7796,7 @@
 			};
 
 			cam_sensor_front {
-				qcom,pins = <0x106 0x1c 0x106 0x21 0x106 0x32>;
+				qcom,pins = <0x107 0x1c 0x107 0x21 0x107 0x32>;
 				qcom,num-grp-pins = <0x3>;
 				qcom,pin-func = <0x0>;
 				label = "cam_sensor_front";
@@ -7812,7 +7817,7 @@
 			};
 
 			cam_sensor_flash {
-				qcom,pins = <0x106 0x1f 0x106 0x20>;
+				qcom,pins = <0x107 0x1f 0x107 0x20>;
 				qcom,num-grp-pins = <0x2>;
 				qcom,pin-func = <0x0>;
 				label = "cam_sensor_flash";
@@ -7820,8 +7825,8 @@
 				default {
 					drive-strength = <0x2>;
 					bias-disable = <0x0>;
-					linux,phandle = <0x10c>;
-					phandle = <0x10c>;
+					linux,phandle = <0x10d>;
+					phandle = <0x10d>;
 				};
 
 				sleep {
@@ -7831,7 +7836,7 @@
 			};
 
 			pmx_i2c_4 {
-				qcom,pins = <0x106 0xe 0x106 0xf>;
+				qcom,pins = <0x107 0xe 0x107 0xf>;
 				qcom,num-grp-pins = <0x2>;
 				qcom,pin-func = <0x2>;
 				label = "pmx_i2c_4";
@@ -7852,7 +7857,7 @@
 			};
 
 			smb_int_pin {
-				qcom,pins = <0x106 0x3e>;
+				qcom,pins = <0x107 0x3e>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x0>;
 				label = "smb1360_int_gpio";
@@ -7864,7 +7869,7 @@
 			};
 
 			button_backlight_pin {
-				qcom,pins = <0x106 0x77>;
+				qcom,pins = <0x107 0x77>;
 				qcom,num-grp-pins = <0x1>;
 				qcom,pin-func = <0x0>;
 				label = "button-backlight-pin";
@@ -7873,13 +7878,13 @@
 					drive-strength = <0x2>;
 					bias-disable;
 					output-low;
-					linux,phandle = <0x10d>;
-					phandle = <0x10d>;
+					linux,phandle = <0x10e>;
+					phandle = <0x10e>;
 				};
 			};
 
 			ap3426_int_pin {
-				qcom,pins = <0x106 0x71>;
+				qcom,pins = <0x107 0x71>;
 				qcom,pin-func = <0x0>;
 				qcom,num-grp-pins = <0x1>;
 				label = "ap3426-irq";
@@ -7900,7 +7905,7 @@
 			};
 
 			bma2x2_int1_pin {
-				qcom,pins = <0x106 0x70>;
+				qcom,pins = <0x107 0x70>;
 				qcom,num-grp-pins = <0x1>;
 				label = "bma2x2_int1_pin";
 
@@ -7913,7 +7918,7 @@
 			};
 
 			bma2x2_int2_pin {
-				qcom,pins = <0x106 0x72>;
+				qcom,pins = <0x107 0x72>;
 				qcom,num-grp-pins = <0x1>;
 				label = "bma2x2_int2_pin";
 
@@ -7930,8 +7935,8 @@
 			compatible = "gpio-keys";
 			input-name = "gpio-keys";
 			pinctrl-names = "tlmm_gpio_key_active", "tlmm_gpio_key_suspend";
-			pinctrl-0 = <0x109>;
-			pinctrl-1 = <0x10a>;
+			pinctrl-0 = <0x10a>;
+			pinctrl-1 = <0x10b>;
 
 			vol_up {
 				label = "volume_up";
@@ -7947,8 +7952,8 @@
 			cell-index = <0x0>;
 			compatible = "qcom,camera-led-flash";
 			qcom,flash-type = <0x3>;
-			qcom,flash-source = <0x10b>;
-			qcom,torch-source = <0x10b>;
+			qcom,flash-source = <0x10c>;
+			qcom,torch-source = <0x10c>;
 			linux,phandle = <0x4c>;
 			phandle = <0x4c>;
 		};
@@ -7957,7 +7962,7 @@
 			compatible = "qcom,leds-gpio-flash";
 			status = "okay";
 			pinctrl-names = "flash_default";
-			pinctrl-0 = <0x10c>;
+			pinctrl-0 = <0x10d>;
 			qcom,flash-en = <0x45 0x20 0x0>;
 			qcom,flash-now = <0x45 0x1f 0x0>;
 			qcom,op-seq = "flash_en", "flash_now";
@@ -7965,8 +7970,8 @@
 			qcom,flash-seq-val = <0x1 0x1>;
 			linux,name = "flashlight";
 			linux,default-trigger = "flashlight-trigger";
-			linux,phandle = <0x10b>;
-			phandle = <0x10b>;
+			linux,phandle = <0x10c>;
+			phandle = <0x10c>;
 		};
 
 		gen-vkeys {
@@ -7984,7 +7989,7 @@
 			compatible = "gpio-leds";
 			status = "okay";
 			pinctrl-names = "default";
-			pinctrl-0 = <0x10d>;
+			pinctrl-0 = <0x10e>;
 
 			keypad-backlight {
 				gpios = <0x45 0x77 0x0>;
@@ -8004,14 +8009,14 @@
 			qcom,msm-hs-micbias-type = "internal";
 			qcom,audio-routing = "RX_BIAS", "MCLK", "SPK_RX_BIAS", "MCLK", "INT_LDO_H", "MCLK", "MIC BIAS Internal1", "Handset Mic", "MIC BIAS Internal2", "Headset Mic", "MIC BIAS Internal1", "Secondary Mic", "AMIC1", "MIC BIAS Internal1", "AMIC2", "MIC BIAS Internal2", "AMIC3", "MIC BIAS Internal1";
 			pinctrl-names = "cdc_lines_act", "cdc_lines_sus";
-			pinctrl-0 = <0x10e>;
-			pinctrl-1 = <0x10f>;
+			pinctrl-0 = <0x10f>;
+			pinctrl-1 = <0x110>;
 			qcom,ext-spk-amp-gpio = <0x45 0x70 0x0>;
-			asoc-platform = <0x110 0x111 0x112 0x113 0x114 0x115 0x116 0x117 0x118 0x119 0x11a>;
+			asoc-platform = <0x111 0x112 0x113 0x114 0x115 0x116 0x117 0x118 0x119 0x11a 0x11b>;
 			asoc-platform-names = "msm-pcm-dsp.0", "msm-pcm-dsp.1", "msm-voip-dsp", "msm-pcm-voice", "msm-pcm-loopback", "msm-compress-dsp", "msm-pcm-hostless", "msm-pcm-afe", "msm-lsm-client", "msm-pcm-routing", "msm-pcm-lpa";
-			asoc-cpu = <0x11b 0x11c 0x11d 0x11e 0x11f 0x120 0x121 0x122 0x123 0x124 0x125 0x126 0x127 0x128 0x129 0x12a 0x12b 0x12c 0x12d 0x12e 0x12f 0x130 0x131 0x132 0x133 0x134>;
+			asoc-cpu = <0x11c 0x11d 0x11e 0x11f 0x120 0x121 0x122 0x123 0x124 0x125 0x126 0x127 0x128 0x129 0x12a 0x12b 0x12c 0x12d 0x12e 0x12f 0x130 0x131 0x132 0x133 0x134 0x135>;
 			asoc-cpu-names = "msm-dai-q6-auxpcm.1", "msm-dai-q6-hdmi.8", "msm-dai-q6-mi2s.0", "msm-dai-q6-mi2s.1", "msm-dai-q6-mi2s.2", "msm-dai-q6-mi2s.3", "msm-dai-q6-dev.16384", "msm-dai-q6-dev.16385", "msm-dai-q6-dev.16386", "msm-dai-q6-dev.16387", "msm-dai-q6-dev.16390", "msm-dai-q6-dev.16391", "msm-dai-q6-dev.16392", "msm-dai-q6-dev.16393", "msm-dai-q6-dev.12288", "msm-dai-q6-dev.12289", "msm-dai-q6-dev.12292", "msm-dai-q6-dev.12293", "msm-dai-q6-dev.224", "msm-dai-q6-dev.225", "msm-dai-q6-dev.241", "msm-dai-q6-dev.240", "msm-dai-q6-dev.32771", "msm-dai-q6-dev.32772", "msm-dai-q6-dev.32773", "msm-dai-q6-dev.32770";
-			asoc-codec = <0x135 0x136>;
+			asoc-codec = <0x136 0x137>;
 			asoc-codec-names = "msm-stub-codec.1", "tombak_codec";
 		};
 
@@ -8034,7 +8039,7 @@
 				compatible = "qcom,msm-ion-reserve";
 				reg = <0x8>;
 				qcom,heap-align = <0x1000>;
-				linux,contiguous-region = <0x137>;
+				linux,contiguous-region = <0x138>;
 				qcom,ion-heap-type = "SECURE_DMA";
 			};
 
@@ -8048,14 +8053,14 @@
 			qcom,ion-heap@28 {
 				compatible = "qcom,msm-ion-reserve";
 				reg = <0x1c>;
-				linux,contiguous-region = <0x138>;
+				linux,contiguous-region = <0x139>;
 				qcom,ion-heap-type = "DMA";
 			};
 
 			qcom,ion-heap@23 {
 				compatible = "qcom,msm-ion-reserve";
 				reg = <0x17>;
-				linux,contiguous-region = <0x102>;
+				linux,contiguous-region = <0x103>;
 				qcom,ion-heap-type = "DMA";
 			};
 
@@ -8124,16 +8129,24 @@
 			linux,remove-completely;
 			reg = <0x0 0x8be00000 0x0 0x600000>;
 			label = "peripheral_mem";
-			linux,phandle = <0x102>;
-			phandle = <0x102>;
+			linux,phandle = <0x103>;
+			phandle = <0x103>;
+		};
+
+		mba_region@0 {
+			linux,reserve-contiguous-region;
+			reg = <0x0 0x0 0x0 0x200000>;
+			label = "mba_mem";
+			linux,phandle = <0xfc>;
+			phandle = <0xfc>;
 		};
 
 		secure_region@0 {
 			linux,reserve-contiguous-region;
 			reg = <0x0 0x0 0x0 0x6d00000>;
 			label = "secure_mem";
-			linux,phandle = <0x137>;
-			phandle = <0x137>;
+			linux,phandle = <0x138>;
+			phandle = <0x138>;
 		};
 
 		venus_qseecom_region@0 {
@@ -8149,8 +8162,8 @@
 			linux,reserve-contiguous-region;
 			reg = <0x0 0x0 0x0 0x314000>;
 			label = "audio_mem";
-			linux,phandle = <0x138>;
-			phandle = <0x138>;
+			linux,phandle = <0x139>;
+			phandle = <0x139>;
 		};
 
 		splash_region@83000000 {
